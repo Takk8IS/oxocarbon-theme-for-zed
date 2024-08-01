@@ -1,0 +1,65 @@
+# Define text files and ensure consistent LF (line feed) line endings
+* text=auto
+
+# Force LF line endings for certain text files
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+
+# Treat binary files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.lock binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.tgz binary
+*.bz2 binary
+*.xz binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.mkv binary
+
+# Specify diff behavior for specific files
+*.json merge=union
+*.lock merge=union
+
+# Define language-specific diff attributes
+*.ts diff=typescript
+*.tsx diff=typescript
+*.js diff=javascript
+*.jsx diff=javascript
+
+# Exclude minified files from diff
+*.min.js -diff
+*.min.css -diff
+
+# Set up custom attributes for documentation files
+*.md linguist-language=Markdown
+*.md merge=union
+
+# Set up attributes for Chromium extensions
+*.crx binary
+*.pem binary
+*.pub binary

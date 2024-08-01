@@ -1,0 +1,7 @@
+authors = ["David C Cavalcante <davcavalcante@proton.me>","Takk™ Innovate Studio <say@takk.ag>"]
+description = "📺 Inspired by IBM Carbon Design System, this theme is meticulously crafted to offer a refined and professional visual experience, available in multiple dark variations."
+id = "oxocarbon"
+name = "Oxocarbon (IBM Carbon) Theme"
+repository = "https://github.com/takk8is/oxocarbon-theme-for-zed"
+schema_version = 1
+version = "0.1.2"
