@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.1.3] - 2024-08-02
+
+-   Improved the contrast of the dark theme to ensure better readability and accessibility.
+-   Added a new color scheme for the dark theme to provide a more immersive and visually appealing experience.
+-   Added a new colors schemes for the light theme to provide a more immersive and visually appealing experience.
+
 ## [0.1.2] - 2024-08-01
 
 -   Creation of the first release, incorporating the aesthetics of the IBM Carbon Design System.
